@@ -1,0 +1,46 @@
+body{
+    text-align:center ;
+    background-color: aqua;
+}
+img{
+    border: 20px solid red;
+    border-radius: 10px;
+}
+li {
+  text-align: left; /* Override for list items */
+}
+#skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills-list {
+    width: 60%;
+}
+
+#skills-image {
+    width: 40%;
+    text-align: center;
+}
+
+#skills-image img {
+    max-width: 100%;
+    height: auto;
+}
+#picContainer{
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing */
+  align-items: center; /* Aligns images vertically */
+
+}
+.pi{
+  font-size: 1000%;
+}
+button{
+  cursor: pointer;
+}
+a{
+  color: red;
+  font-family:'Brush Script MT', cursive;
+}
